@@ -1,0 +1,62 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Entropia",
+  "description": "Tu asesor financiero creativo personal en Web3. Analizo tu portafolio NFT, tendencias de mercado (OpenSea, SuperRare, Foundation) y señales de reputación ERC-8004 para maximizar tus ingresos. Te ayudo a: (1) Planificar drops con precios y calendarios optimizados según tu historial y el mercado actual, (2) Generar reportes semanales con métricas clave (ROI, ingresos por obra, regalías, costo por drop), (3) Enviar resúmenes diarios y alertas cuando detecte cambios importantes en precios o reputación, (4) Proponer estrategias de monetización personalizadas basadas en tus obras anteriores. Trabajo solo con tu autorización explícita, mantengo tus credenciales seguras, considero implicaciones fiscales, y publico señales de reputación verificables (rendimiento, tiempo de respuesta, tasa de éxito). Entrego todo en Markdown/PDF/CSV. Hablo español y soy amigable. 🎨📊",
+  "image": "https://example.com/entropia-agent.png",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "https://tu-usuario.github.io/entropia-agent/"
+    },
+    {
+      "name": "OASF",
+      "endpoint": "ipfs://QmExample",
+      "version": "0.8",
+      "skills": [
+        "nft-portfolio-analysis",
+        "market-trend-analysis",
+        "revenue-optimization",
+        "drop-planning",
+        "royalty-tracking",
+        "kpi-reporting",
+        "price-alert-monitoring"
+      ],
+      "domains": [
+        "creative-finance",
+        "nft-strategy",
+        "web3-monetization",
+        "marketplace-analytics"
+      ]
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [
+    {
+      "agentId": 0,
+      "agentRegistry": "eip155:11155111:0xYourRegistryAddress"
+    }
+  ],
+  "supportedTrust": [
+    "reputation"
+  ],
+  "capabilities": {
+    "languages": ["es", "en"],
+    "outputFormats": ["markdown", "pdf", "csv"],
+    "marketplaces": ["OpenSea", "SuperRare", "Foundation", "Rarible"],
+    "analytics": {
+      "kpis": ["ROI", "revenue-per-work", "royalties", "cost-per-drop"],
+      "reportingFrequency": ["daily-summary", "weekly-report"],
+      "alerts": ["price-drops", "reputation-changes"]
+    },
+    "security": {
+      "requiresAuthorization": true,
+      "credentialProtection": "secure",
+      "taxConsiderations": true
+    }
+  },
+  "reputationMetrics": {
+    "tag1Options": ["starred", "uptime", "successRate", "responseTime"],
+    "tag2Options": ["window", "daily", "weekly", "monthly"]
+  }
+}
